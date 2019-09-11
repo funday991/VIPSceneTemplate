@@ -18,7 +18,7 @@ protocol ___VARIABLE_sceneName___DisplayLogic: class {
 
 // MARK: - Base
 
-final class ___VARIABLE_sceneName___ViewController: UITableViewController, Routable {
+final class ___VARIABLE_sceneName___ViewController: RoutableTableViewController<___VARIABLE_sceneName___.RouterObject> {
     
     // MARK: Outlets
     
